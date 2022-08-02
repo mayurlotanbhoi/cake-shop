@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel-cell {
+    width: 100%;
+    height: 300px;
+}
+
+
+/* cell number */
+
+.carousel-cell:before {
+    display: block;
+}
+
+.header1 {
+    width: 100vw;
+    height: 70px;
+    background-color: #ec268f;
+    position: fixed;
+    z-index: 9999;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.head {
+    width: 80vw;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.head i {
+    font-size: 35px;
+    color: white;
+    cursor: pointer;
+}
+
+.loginbtn {
+    background-color: #f3c50d;
+    border-radius: 10px;
+    width: 90px;
+    height: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.Cakkers {
+    font-size: 25px;
+    color: #eccffd;
+    letter-spacing: 2px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.catiegory {
+    width: 100vw;
+    height: 200px;
+}
+
+.catitem {
+    width: 80vw;
+    height: 100%;
+    /* background-color: #ec268f; */
+}
+
+.catimage {
+    width: 19vh;
+    height: 19vh;
+    border-radius: 50%;
+    border: 5px solid #ec268f;
+}
+
+.home {
+    background-image: url(homeImage.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 70vh;
+    margin: 5vh 0;
+}
+
+.catCart {
+    height: 23vh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ef8dc1;
+}
+
+.seller {
+    width: 100vw;
+    height: 80vh;
+    background-color: #e2def5;
+}
+
+.heaing {
+    width: 100vw;
+    height: 20vh;
+    margin: auto auto;
+    text-align: center;
+}
+
+.shop,
+.Bestseller {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.Bestseller {
+    color: #ec268f;
+    margin-right: 10px;
+}
+
+.card {
+    height: 220px;
+    width: 480px;
+    border-radius: 20px;
+    background-color: white;
+    justify-content: space-between;
+    margin: 40px 10px;
+}
+
+.left {
+    flex-direction: column;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.left span {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.left .heaing,
+button {
+    height: 40px;
+    width: 100px;
+    background-color: #ec268f;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.cardimg {
+    height: 150px;
+}
+
+.bycake {
+    width: 100vw;
+    height: 50vh;
+}
+
+.bycakeheading {
+    width: 80vw;
+    height: 100%;
+}
+
+.heaing1 {
+    width: 80vw;
+    height: 20vh;
+    justify-content: space-between;
+}
+
+.by-card-img {
+    justify-content: space-between;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.by-card-img .catimage {
+    height: 30vh;
+    width: 30vh;
+    border: none;
+}
+
+.by-card-img .catCart {
+    height: 35vh;
+    width: 35vh;
+}
+
+.by-card-img .catCart span {
+    font-size: 30px;
+    color: black;
+}
+
+.treeD {
+    width: 100vw;
+    height: 100%;
+    margin-top: 30vh;
+    background-color: #e2def5;
+}
+
+.By-Pastry,
+.by-chocalet,
+.Savories,
+.Chocolates {
+    width: 100vw;
+    height: 100%;
+}
+
+.By-Pastry .catCart {
+    margin-bottom: 10vh;
+}
+
+.treeD .catCart {
+    margin-bottom: 10vh;
+}
+
+.Chocolates .catCart {
+    margin-bottom: 10vh;
+}
+
+.Savories .catCart {
+    margin-bottom: 10vh;
+}
+
+.Savories {
+    background-color: #e2def5;
+}
+
+.cooment {
+    height: 30vh;
+    width: 100vw;
+    background-color: #ec268f;
+    margin-top: 10vh;
+}
+
+.orderRecive {
+    width: 80vw;
+    height: 100%;
+    color: #e2def5;
+    font-size: 30px;
+    flex-direction: column;
+}
+
+.orderRecive p {
+    text-align: center;
+}
+
+.slidgag {
+    height: 300px;
+    width: 100%;
+    background-color: #e2def5;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.slidfont {
+    font-size: 20px;
+}
+
+.clients {
+    width: 100vw;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.clientsheading2 {
+    width: 80vw;
+    height: 100%;
+    margin: 20px;
+    text-align: center;
+}
+
+.comentslide {
+    width: 70vw;
+}
+
+.comentslide .carousel-cell {
+    width: 70vw;
+    height: 200px;
+}
+
+
+/* cell number */
+
+.comentslide .carousel-cell:before {
+    display: block;
+}
+
+.fotter {
+    width: 100vw;
+    height: 50vh;
+    background-color: #ec268f;
+}
+
+@media screen and (max-width: 500px) {
+    .catCart {
+        font-size: 15px;
+    }
+    .catimage {
+        width: 12vh;
+        height: 12vh;
+        border: 3px solid #ec268f;
+    }
+    .catCart {
+        height: 15vh;
+    }
+    .slider .carousel .carousel-cell {
+        height: 20vh;
+    }
+    .seller {
+        height: 100%;
+    }
+    .catCart {
+        font-size: 10px;
+    }
+    .cardContainer {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .heaing {
+        height: 30vh;
+        font-size: 10px;
+    }
+    .card {
+        width: 100%;
+        margin: 20px 10px;
+    }
+    .cardimg {
+        width: 100px;
+    }
+    .by-card-img .catimage {
+        height: 15vh;
+        width: 15vh;
+    }
+    .by-card-img .catCart span {
+        font-size: 20px;
+    }
+    .by-card-img .catCart {
+        height: 18vh;
+        width: 18vh;
+    }
+    .catCart {
+        text-align: center;
+    }
+    .heaing1 span {
+        font-size: 35px;
+    }
+    .by-card-img .catCart span {
+        font-size: 18px;
+    }
+}
